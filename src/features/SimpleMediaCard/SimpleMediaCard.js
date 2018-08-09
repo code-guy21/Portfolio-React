@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
@@ -14,12 +13,12 @@ const styles = {
 	},
 	media: {
 		height: 0,
-		paddingTop: '56.25%' // 16:9
+		paddingTop: '56.25%'
 	}
 };
 
 function SimpleMediaCard(props) {
-	const { classes } = props;
+	const { classes, title, description } = props;
 	return (
 		<div>
 			<Card className={classes.card}>
@@ -30,12 +29,9 @@ function SimpleMediaCard(props) {
 				/>
 				<CardContent>
 					<Typography gutterBottom variant="headline" component="h2">
-						Lizard
+						{title}
 					</Typography>
-					<Typography component="p">
-						Lizards are a widespread group of squamate reptiles, with over 6,000
-						species, ranging across all continents except Antarctica
-					</Typography>
+					<Typography component="p">{description}</Typography>
 				</CardContent>
 				<CardActions>
 					<Button size="small" color="primary">
