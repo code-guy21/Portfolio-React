@@ -11,22 +11,22 @@ const data = [
 	{
 		title: '5 Day Forecast',
 		description:
-			'An weather app created with React.js and Redux, that gives users a 5 day forecast of the city of their choosing'
+			'An events app created with React.js, Redux, Firebase, and Firestore'
 	},
 	{
 		title: 'YouTube Search',
 		description:
-			'A simple app that implements the YouTube search API to allow for the lookup of videos'
+			'An events app created with React.js, Redux, Firebase, and Firestore'
 	},
 	{
 		title: 'ACSequencer',
 		description:
-			'Senior Design project that involved the creation of an electronic music sequencer with BlueTooth enabled data transfer'
+			'An events app created with React.js, Redux, Firebase, and Firestore'
 	},
 	{
 		title: 'Face Recognition',
 		description:
-			'A react app that implements the Clarifai face detection API to '
+			'An events app created with React.js, Redux, Firebase, and Firestore '
 	}
 ];
 
@@ -35,7 +35,7 @@ const Projects = () => {
 		<Grid container justify="center" spacing={16}>
 			{data.map(project => {
 				return (
-					<Grid item>
+					<Grid item xl={4} lg={4} md={4} sm={6} xs={12}>
 						<SimpleMediaCard
 							title={project.title}
 							description={project.description}

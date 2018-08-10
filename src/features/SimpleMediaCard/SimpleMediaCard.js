@@ -8,9 +8,6 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
 const styles = {
-	card: {
-		maxWidth: 345
-	},
 	media: {
 		height: 0,
 		paddingTop: '56.25%'
@@ -20,29 +17,27 @@ const styles = {
 function SimpleMediaCard(props) {
 	const { classes, title, description } = props;
 	return (
-		<div>
-			<Card className={classes.card}>
-				<CardMedia
-					className={classes.media}
-					image="http://www.animalspot.net/wp-content/uploads/2013/01/Reptile.jpg"
-					title="Contemplative Reptile"
-				/>
-				<CardContent>
-					<Typography gutterBottom variant="headline" component="h2">
-						{title}
-					</Typography>
-					<Typography component="p">{description}</Typography>
-				</CardContent>
-				<CardActions>
-					<Button size="small" color="primary">
-						Share
-					</Button>
-					<Button size="small" color="primary">
-						Learn More
-					</Button>
-				</CardActions>
-			</Card>
-		</div>
+		<Card className="grow" elevation={10} style={{ margin: '10px' }}>
+			<CardMedia
+				className={classes.media}
+				image="http://www.animalspot.net/wp-content/uploads/2013/01/Reptile.jpg"
+				title="Contemplative Reptile"
+			/>
+			<CardContent>
+				<Typography gutterBottom variant="headline" component="h2">
+					{title}
+				</Typography>
+				<Typography component="p">{description}</Typography>
+			</CardContent>
+			<CardActions>
+				<Button size="small" color="primary">
+					Share
+				</Button>
+				<Button size="small" color="primary">
+					Learn More
+				</Button>
+			</CardActions>
+		</Card>
 	);
 }
 
