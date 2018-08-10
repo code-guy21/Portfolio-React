@@ -1,5 +1,6 @@
 import React from 'react';
 import { Paper, Typography, Grid } from '@material-ui/core';
+import ControlledExpansionPanels from '../ControlledExpansionPanels/ControlledExpansionPanels';
 
 const Bio = () => {
 	return (
@@ -37,9 +38,9 @@ const Bio = () => {
 					}}
 				>
 					<Typography variant="headline" component="h3">
-						Title
+						About Me
 					</Typography>
-					<Typography component="p">Bio</Typography>
+					<Typography component="p">I am an aspiring web developer</Typography>
 				</Paper>
 			</Grid>
 		</Grid>

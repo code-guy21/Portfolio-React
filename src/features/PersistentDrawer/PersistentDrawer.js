@@ -5,7 +5,13 @@ import Projects from '../Projects/Projects';
 import MyDrawer from '../MyDrawer/MyDrawer';
 import Bio from '../Bio/Bio';
 
-import { AppBar, Toolbar, Typography, IconButton } from '@material-ui/core';
+import {
+	AppBar,
+	Toolbar,
+	Typography,
+	IconButton,
+	Grid
+} from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import { withStyles } from '@material-ui/core/styles';
 import classNames from 'classnames';

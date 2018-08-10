@@ -38,9 +38,9 @@ const data = [
 const Projects = () => {
 	return (
 		<Grid container justify="center" spacing={16}>
-			{data.map(project => {
+			{data.map((project, i) => {
 				return (
-					<Grid item xl={4} lg={4} md={4} sm={6} xs={12}>
+					<Grid key={i} item xl={4} lg={4} md={4} sm={6} xs={12}>
 						<SimpleMediaCard
 							url={project.url}
 							title={project.title}
