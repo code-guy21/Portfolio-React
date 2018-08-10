@@ -40,7 +40,7 @@ const Projects = () => {
 		<Grid container justify="center" spacing={16}>
 			{data.map((project, i) => {
 				return (
-					<Grid key={i} item xl={4} lg={4} md={4} sm={6} xs={12}>
+					<Grid key={i} item xl={3} lg={4} md={4} sm={10} xs={12}>
 						<SimpleMediaCard
 							url={project.url}
 							title={project.title}
