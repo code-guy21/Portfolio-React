@@ -5,14 +5,7 @@ import ControlledExpansionPanels from '../ControlledExpansionPanels/ControlledEx
 const Bio = () => {
 	return (
 		<Grid container justify="center" spacing={16}>
-			<Grid
-				style={{ border: '1px solid black' }}
-				item
-				lg={2}
-				md={2}
-				sm={3}
-				xs={5}
-			>
+			<Grid item lg={2} md={2} sm={3} xs={5}>
 				<Paper
 					elevation={0}
 					style={{
@@ -27,7 +20,7 @@ const Bio = () => {
 				</Paper>
 			</Grid>
 
-			<Grid style={{ border: '1px solid black' }} item lg={12} xs={12}>
+			<Grid item lg={12} xs={12}>
 				<Paper
 					elevation={1}
 					style={{
