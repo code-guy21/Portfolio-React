@@ -5,32 +5,28 @@ import SimpleMediaCard from '../SimpleMediaCard/SimpleMediaCard';
 const data = [
 	{
 		title: 'MyNet',
-		description:
-			'An events app created with React.js, Redux, Firebase, and Firestore',
+		description: 'An app created with React.js, Redux, Firebase, and Firestore',
 		url: '/assets/MyNet.jpeg'
 	},
 	{
 		title: '5 Day Forecast',
-		description:
-			'An events app created with React.js, Redux, Firebase, and Firestore',
+		description: 'An app created with React.js, Redux, Firebase, and Firestore',
 		url: '/assets/5Day.jpeg'
 	},
 	{
 		title: 'YouTube Search',
-		description:
-			'An events app created with React.js, Redux, Firebase, and Firestore',
+		description: 'An app created with React.js, Redux, Firebase, and Firestore',
 		url: '/assets/YouTube.jpeg'
 	},
 	{
 		title: 'ACSequencer',
-		description:
-			'An events app created with React.js, Redux, Firebase, and Firestore',
+		description: 'An app created with React.js, Redux, Firebase, and Firestore',
 		url: '/assets/SeqWeb.jpeg'
 	},
 	{
 		title: 'Face Recognition',
 		description:
-			'An events app created with React.js, Redux, Firebase, and Firestore ',
+			'An app created with React.js, Redux, Firebase, and Firestore ',
 		url: '/assets/FaceRec.jpeg'
 	}
 ];
