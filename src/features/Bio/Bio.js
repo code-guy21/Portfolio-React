@@ -54,8 +54,7 @@ const Bio = ({ classes }) => {
 					style={{
 						textAlign: 'center',
 						color: 'black',
-						paddingTop: '15px',
-						textDecoration: 'underline'
+						paddingTop: '15px'
 					}}
 				>
 					About
