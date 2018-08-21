@@ -5,3 +5,7 @@
 .grow:hover {
     transform: scale(1.05);
 }
+
+body {
+    background-color: #fafafa
+}
