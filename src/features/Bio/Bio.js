@@ -49,32 +49,30 @@ const Bio = ({ classes }) => {
 				/>
 			</Grid>
 			<Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
-				<Paper>
-					<Typography
-						variant="display1"
-						style={{
-							textAlign: 'center',
-							color: 'black',
-							paddingTop: '15px'
-						}}
-					>
-						About
-					</Typography>
-					<Typography
-						style={{
-							width: '80%',
-							margin: '0 auto',
-							fontSize: '20px',
-							padding: '15px'
-						}}
-						variant="display1"
-						align="center"
-					>
-						Hello, my name is Alexis San Javier and i'm currently an aspiring
-						web developer. My main focus is on the front-end using React and
-						Redux to build user friendly websites with clean and minimal design.
-					</Typography>
-				</Paper>
+				<Typography
+					variant="display1"
+					style={{
+						textAlign: 'center',
+						color: 'black',
+						paddingTop: '15px'
+					}}
+				>
+					About
+				</Typography>
+				<Typography
+					style={{
+						width: '80%',
+						margin: '0 auto',
+						fontSize: '20px',
+						padding: '15px'
+					}}
+					variant="display1"
+					align="center"
+				>
+					Hello, my name is Alexis San Javier and i'm currently an aspiring web
+					developer. My main focus is on the front-end using React and Redux to
+					build user friendly websites with clean and minimal design.
+				</Typography>
 			</Grid>
 			<Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
 				<div className={classes.row}>
