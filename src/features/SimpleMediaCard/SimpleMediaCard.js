@@ -17,7 +17,7 @@ const styles = {
 function SimpleMediaCard(props) {
 	const { classes, title, description, url } = props;
 	return (
-		<Card className="grow" elevation={10} style={{ margin: '10px' }}>
+		<Card className="grow" elevation={2} style={{ margin: '10px' }}>
 			<CardMedia
 				className={classes.media}
 				image={
