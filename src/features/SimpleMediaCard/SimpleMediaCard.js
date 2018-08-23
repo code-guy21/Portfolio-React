@@ -15,13 +15,13 @@ const styles = {
 };
 
 function SimpleMediaCard(props) {
-	const { classes, title, description, url } = props;
+	const { classes, title, description, photoURL, address } = props;
 	return (
 		<Card className="grow" elevation={2} style={{ margin: '10px' }}>
 			<CardMedia
 				className={classes.media}
 				image={
-					url ||
+					photoURL ||
 					'http://www.animalspot.net/wp-content/uploads/2013/01/Reptile.jpg'
 				}
 				title="Contemplative Reptile"
@@ -33,8 +33,8 @@ function SimpleMediaCard(props) {
 				<Typography component="p">{description}</Typography>
 			</CardContent>
 			<CardActions>
-				<Button size="small" color="primary">
-					Share
+				<Button href={address} size="small" color="primary">
+					Try It
 				</Button>
 				<Button size="small" color="primary">
 					Learn More

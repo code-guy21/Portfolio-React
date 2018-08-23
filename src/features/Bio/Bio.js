@@ -34,7 +34,7 @@ const Bio = ({ classes }) => {
 	return (
 		<Grid container justify="center" spacing={16}>
 			<Grid
-				style={{ maxHeight: '500px' }}
+				//style={{ border: '1px solid black' }}
 				item
 				xl={12}
 				lg={12}
@@ -42,11 +42,23 @@ const Bio = ({ classes }) => {
 				sm={12}
 				xs={12}
 			>
-				<img
-					src="https://images.unsplash.com/photo-1518081461904-9d8f136351c2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8a815e999d0f593c8c8bbcb6473b0d39&auto=format&fit=crop&w=1377&q=80"
-					style={{ width: '100%', height: '100%' }}
-					alt="header"
-				/>
+				<Grid
+					style={{ margin: '0 auto' }}
+					item
+					xl={3}
+					lg={3}
+					md={3}
+					sm={4}
+					xs={5}
+				>
+					<Paper elevation={0} style={{ backgroundColor: '#fafafa' }}>
+						<img
+							style={{ width: '100%', height: '100%' }}
+							src="/assets/profile.png"
+							alt="profile"
+						/>
+					</Paper>
+				</Grid>
 			</Grid>
 			<Grid
 				//style={{ border: '1px solid black' }}
@@ -57,16 +69,6 @@ const Bio = ({ classes }) => {
 				sm={12}
 				xs={12}
 			>
-				<Typography
-					variant="display1"
-					style={{
-						textAlign: 'center',
-						color: 'black',
-						paddingTop: '15px'
-					}}
-				>
-					About
-				</Typography>
 				<Typography
 					style={{
 						width: '80%',
@@ -81,7 +83,7 @@ const Bio = ({ classes }) => {
 					developer. My main focus is on the front-end using React and Redux to
 					build user friendly websites with clean and minimal design.
 				</Typography>
-			</Grid>
+			</Grid>{' '}
 			<Grid
 				//style={{ border: '1px solid black' }}
 				item
@@ -91,17 +93,6 @@ const Bio = ({ classes }) => {
 				sm={12}
 				xs={12}
 			>
-				<Typography
-					variant="display1"
-					style={{
-						textAlign: 'center',
-						paddingTop: '15px',
-						paddingBottom: '10px',
-						fontSize: '20px'
-					}}
-				>
-					connect
-				</Typography>
 				<div className={classes.row}>
 					<IconButton href="https://www.facebook.com/alex.sanjavier">
 						<svg

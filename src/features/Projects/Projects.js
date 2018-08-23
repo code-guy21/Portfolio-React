@@ -6,28 +6,33 @@ const data = [
 	{
 		title: 'MyNet',
 		description: 'An app created with React.js, Redux, Firebase, and Firestore',
-		url: '/assets/MyNet.jpeg'
+		photoURL: '/assets/MyNet.jpeg',
+		address: 'https://revents-2d8d9.firebaseapp.com/'
 	},
 	{
 		title: '5 Day Forecast',
 		description: 'An app created with React.js, Redux, Firebase, and Firestore',
-		url: '/assets/5Day.jpeg'
+		photoURL: '/assets/5Day.jpeg',
+		address: 'https://code-guy21.github.io/WeatherApp/'
 	},
 	{
 		title: 'YouTube Search',
 		description: 'An app created with React.js, Redux, Firebase, and Firestore',
-		url: '/assets/YouTube.jpeg'
+		photoURL: '/assets/YouTube.jpeg',
+		address: 'https://code-guy21.github.io/YouTubeClone/'
 	},
 	{
 		title: 'ACSequencer',
 		description: 'An app created with React.js, Redux, Firebase, and Firestore',
-		url: '/assets/SeqWeb.jpeg'
+		photoURL: '/assets/SeqWeb.jpeg',
+		address: 'http://www.acsequencer.com/'
 	},
 	{
 		title: 'Face Recognition',
 		description:
 			'An app created with React.js, Redux, Firebase, and Firestore ',
-		url: '/assets/FaceRec.jpeg'
+		photoURL: '/assets/FaceRec.jpeg',
+		address: 'https://facerecognapp.herokuapp.com/'
 	}
 ];
 
@@ -38,7 +43,8 @@ const Projects = () => {
 				return (
 					<Grid key={i} item xl={3} lg={4} md={4} sm={10} xs={12}>
 						<SimpleMediaCard
-							url={project.url}
+							address={project.address}
+							photoURL={project.photoURL}
 							title={project.title}
 							description={project.description}
 						/>
