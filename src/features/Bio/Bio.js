@@ -79,7 +79,7 @@ const Bio = ({ classes }) => {
 					variant="display1"
 					align="center"
 				>
-					Hello, my name is Alexis San Javier and i'm currently an aspiring web
+					My name is Alexis San Javier and i'm currently an aspiring web
 					developer. My main focus is on the front-end using React and Redux to
 					build user friendly websites with clean and minimal design.
 				</Typography>
