@@ -54,7 +54,7 @@ const Bio = ({ classes }) => {
 					<Paper elevation={0} style={{ backgroundColor: '#fafafa' }}>
 						<img
 							style={{ width: '100%', height: '100%' }}
-							src="/assets/profile.png"
+							src="/assets/blackandwhite.png"
 							alt="profile"
 						/>
 					</Paper>
