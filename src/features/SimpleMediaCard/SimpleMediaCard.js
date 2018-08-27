@@ -6,7 +6,8 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import InboxIcon from '@material-ui/icons/ArrowForward';
+import Play from '@material-ui/icons/PlayArrow';
+import Download from '@material-ui/icons/FileDownload';
 
 const styles = {
 	media: {
@@ -35,12 +36,15 @@ function SimpleMediaCard(props) {
 			</CardContent>
 			<CardActions>
 				<Button
-					style={{ left: '75%' }}
+					style={{ margin: '0', padding: '0' }}
 					href={address}
 					size="small"
 					color="primary"
 				>
-					<InboxIcon />
+					<Play color="action" />
+				</Button>
+				<Button style={{ margin: '0' }} size="small" color="primary">
+					<Download color="action" />
 				</Button>
 			</CardActions>
 		</Card>
