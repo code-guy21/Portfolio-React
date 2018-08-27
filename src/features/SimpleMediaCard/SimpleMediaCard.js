@@ -17,7 +17,15 @@ const styles = {
 };
 
 function SimpleMediaCard(props) {
-	const { classes, title, description, photoURL, address } = props;
+	const {
+		classes,
+		title,
+		description,
+		photoURL,
+		webAddress,
+		github,
+		learnMore
+	} = props;
 	return (
 		<Card className="grow" elevation={2} style={{ margin: '10px' }}>
 			<CardMedia
@@ -35,17 +43,36 @@ function SimpleMediaCard(props) {
 				<Typography component="p">{description}</Typography>
 			</CardContent>
 			<CardActions>
-				<Button
-					style={{ margin: '0', padding: '0' }}
-					href={address}
-					size="small"
-					color="primary"
-				>
-					<Play color="action" />
-				</Button>
-				<Button style={{ margin: '0' }} size="small" color="primary">
-					<Download color="action" />
-				</Button>
+				{webAddress && (
+					<Button
+						style={{ margin: '0', padding: '0' }}
+						href={webAddress}
+						size="small"
+						color="primary"
+					>
+						Try It
+					</Button>
+				)}
+				{learnMore && (
+					<Button
+						href={learnMore}
+						style={{ margin: '0' }}
+						size="small"
+						color="primary"
+					>
+						Learn More
+					</Button>
+				)}
+				{github && (
+					<Button
+						href={github}
+						style={{ margin: '0' }}
+						size="small"
+						color="primary"
+					>
+						Github
+					</Button>
+				)}
 			</CardActions>
 		</Card>
 	);

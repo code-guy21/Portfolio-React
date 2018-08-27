@@ -7,32 +7,37 @@ const data = [
 		title: 'MyNet',
 		description: 'An app created with React.js, Redux, Firebase, and Firestore',
 		photoURL: '/assets/MyNet.jpeg',
-		address: 'https://revents-2d8d9.firebaseapp.com/'
+		webAddress: 'https://revents-2d8d9.firebaseapp.com/',
+		github: 'https://github.com/code-guy21/revents'
 	},
 	{
 		title: '5 Day Forecast',
 		description: 'An app created with React.js, Redux, Firebase, and Firestore',
 		photoURL: '/assets/5Day.jpeg',
-		address: 'https://code-guy21.github.io/WeatherApp/'
+		webAddress: 'https://code-guy21.github.io/WeatherApp/',
+		github: 'https://github.com/code-guy21/WeatherApp'
 	},
 	{
 		title: 'YouTube Search',
 		description: 'An app created with React.js, Redux, Firebase, and Firestore',
 		photoURL: '/assets/YouTube.jpeg',
-		address: 'https://code-guy21.github.io/YouTubeClone/'
+		webAddress: 'https://code-guy21.github.io/YouTubeClone/',
+		github: 'https://github.com/code-guy21/YouTubeClone'
 	},
 	{
 		title: 'ACSequencer',
 		description: 'An app created with React.js, Redux, Firebase, and Firestore',
 		photoURL: '/assets/SeqWeb.jpeg',
-		address: 'http://www.acsequencer.com/'
+		github: 'https://github.com/code-guy21/SeqWeb/tree/master/seqWebMig/my-app',
+		learnMore: 'http://www.acsequencer.com/'
 	},
 	{
 		title: 'Face Recognition',
 		description:
 			'An app created with React.js, Redux, Firebase, and Firestore ',
 		photoURL: '/assets/FaceRec.jpeg',
-		address: 'https://facerecognapp.herokuapp.com/'
+		webAddress: 'https://facerecognapp.herokuapp.com/',
+		github: 'https://github.com/code-guy21/facedetection'
 	}
 ];
 
@@ -43,10 +48,12 @@ const Projects = () => {
 				return (
 					<Grid key={i} item xl={3} lg={4} md={4} sm={10} xs={12}>
 						<SimpleMediaCard
-							address={project.address}
+							webAddress={project.webAddress}
+							learnMore={project.learnMore}
 							photoURL={project.photoURL}
 							title={project.title}
 							description={project.description}
+							github={project.github}
 						/>
 					</Grid>
 				);
