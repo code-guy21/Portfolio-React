@@ -17,7 +17,7 @@ export const mailFolderListItems = (
 			<ListItemIcon>
 				<InboxIcon />
 			</ListItemIcon>
-			<ListItemText primary="Bio" />
+			<ListItemText primary="About" />
 		</ListItem>
 		<ListItem component={Link} to="/projects" button>
 			<ListItemIcon>
@@ -53,12 +53,6 @@ export const otherMailFolderListItems = (
 				<DeleteIcon />
 			</ListItemIcon>
 			<ListItemText primary="Social Media" />
-		</ListItem>
-		<ListItem button>
-			<ListItemIcon>
-				<ReportIcon />
-			</ListItemIcon>
-			<ListItemText primary="Spam" />
 		</ListItem>
 	</div>
 );

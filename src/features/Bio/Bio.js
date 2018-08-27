@@ -45,7 +45,7 @@ const Bio = ({ classes }) => {
 				<Grid
 					style={{ margin: '0 auto' }}
 					item
-					xl={3}
+					xl={2}
 					lg={3}
 					md={3}
 					sm={4}
