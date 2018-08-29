@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-	Paper,
-	Typography,
-	Grid,
-	Avatar,
-	IconButton,
-	Icon
-} from '@material-ui/core';
+import { Paper, Typography, Grid, IconButton } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 
 const styles = {
@@ -79,9 +72,9 @@ const Bio = ({ classes }) => {
 					variant="display1"
 					align="center"
 				>
-					My name is Alexis San Javier and i'm currently an aspiring web
-					developer. My main focus is on the front-end using React and Redux to
-					build user friendly websites with clean and minimal design.
+					My name is Alexis San Javier and a Web Developer looking to improve
+					and gain experience. My main focus is on the front-end using React and
+					Redux to build user friendly websites with clean and minimal design.
 				</Typography>
 			</Grid>{' '}
 			<Grid
