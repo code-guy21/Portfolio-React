@@ -29,8 +29,6 @@ const MyDrawer = ({
 			</div>
 			<Divider />
 			<List>{mailList}</List>
-			<Divider />
-			<List>{mailOther}</List>
 		</Drawer>
 	);
 };
