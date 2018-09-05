@@ -32,8 +32,9 @@ function SimpleMediaCard(props) {
 					photoURL ||
 					'http://www.animalspot.net/wp-content/uploads/2013/01/Reptile.jpg'
 				}
-				title="Contemplative Reptile"
+				title="project"
 			/>
+
 			<CardContent>
 				<Typography gutterBottom variant="headline" component="h2">
 					{title}
