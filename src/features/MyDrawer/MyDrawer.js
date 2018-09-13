@@ -13,14 +13,13 @@ const MyDrawer = ({
 	mailList,
 	mailOther
 }) => {
+	console.log(drawerPaper);
 	return (
 		<Drawer
 			variant="persistent"
 			anchor={anchor}
 			open={open}
-			classes={{
-				paper: drawerPaper
-			}}
+			classes={{ paper: drawerPaper }}
 		>
 			<div className={drawerHeader}>
 				<IconButton onClick={drawerClose}>

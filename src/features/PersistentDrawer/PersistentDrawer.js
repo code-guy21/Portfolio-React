@@ -60,8 +60,8 @@ class PersistentDrawer extends Component {
 		anchor === 'left' ? (before = drawer) : (after = drawer);
 
 		return (
-			<div className={classes.root} style={{ height: '100vh' }}>
-				<div className={classes.appFrame} style={{ height: '100%' }}>
+			<div className={classes.root}>
+				<div className={classes.appFrame}>
 					<AppBar
 						color="primary"
 						className={classNames(classes.appBar, {
