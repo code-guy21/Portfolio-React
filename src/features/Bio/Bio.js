@@ -39,7 +39,7 @@ const Bio = () => {
 					simulation, and technology industries. An adaptable, self-driven, and
 					communicative problem solver who specializes in front-end development.
 					A 2017 Computer Engineering graduate of the University of Central
-					Florida interested in front-end, and UI roles.
+					Florida interested.
 				</Typography>
 			</Grid>
 			<Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
