@@ -6,7 +6,7 @@ import './index.css';
 
 const theme = createMuiTheme({
 	palette: {
-		primary: { main: '#000' },
+		primary: { main: '#5352ed' },
 		secondary: { main: '#11cb5f' }
 	}
 });
