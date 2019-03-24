@@ -2,3 +2,8 @@ body {
     background-color: #fafafa;
     margin: 0;
 }
+
+.footer {
+    text-align: center;
+    font-family: sans-serif;
+}
