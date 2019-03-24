@@ -102,9 +102,10 @@ class PersistentDrawer extends Component {
 					</main>
 					{after}
 				</div>
-				<div className="footer">
-					<p>© 2019 Copyright Alexis San Javier</p>
-				</div>
+
+				<Typography className="footer">
+					© 2019 Copyright Alexis San Javier
+				</Typography>
 			</div>
 		);
 	}
