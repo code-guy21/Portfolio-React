@@ -35,11 +35,11 @@ const Bio = () => {
 					variant="display1"
 					align="center"
 				>
-					A Web developer with 2 years of experience in the education,
+					A web developer with 2 years of experience in the education,
 					simulation, and technology industries. An adaptable, self-driven, and
-					communicative problem solver who specializes in front-end development.
-					A 2017 Computer Engineering graduate of the University of Central
-					Florida.
+					communicative problem solver who specializes in JavaScript. A 2017
+					Computer Engineering graduate of the University of Central Florida
+					interested in software engineering roles.
 				</Typography>
 			</Grid>
 			<Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
